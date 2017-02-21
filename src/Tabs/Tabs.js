@@ -159,7 +159,6 @@ class Tabs extends Component {
       this.state.selectedIndex !== index) {
       valueLink.requestChange(value, event, tab);
     }
-
     this.setState({selectedIndex: index});
 
     if (tab.props.onActive) {
